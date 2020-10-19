@@ -13,6 +13,7 @@
 		FD3B1329253E381C00B37FFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD3B1327253E381C00B37FFF /* Main.storyboard */; };
 		FD3B132B253E383F00B37FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD3B132A253E383F00B37FFF /* Assets.xcassets */; };
 		FD3B132E253E383F00B37FFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD3B132C253E383F00B37FFF /* LaunchScreen.storyboard */; };
+		FD3B1337253E3A5000B37FFF /* LoaderImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3B1336253E3A5000B37FFF /* LoaderImages.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FD3B132A253E383F00B37FFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD3B132D253E383F00B37FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD3B132F253E383F00B37FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD3B1336253E3A5000B37FFF /* LoaderImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderImages.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				FD3B1321253E381C00B37FFF /* AppDelegate.swift */,
 				FD3B1323253E381C00B37FFF /* SceneDelegate.swift */,
 				FD3B1325253E381C00B37FFF /* ViewController.swift */,
+				FD3B1336253E3A5000B37FFF /* LoaderImages.swift */,
 				FD3B1327253E381C00B37FFF /* Main.storyboard */,
 				FD3B132A253E383F00B37FFF /* Assets.xcassets */,
 				FD3B132C253E383F00B37FFF /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				FD3B1326253E381C00B37FFF /* ViewController.swift in Sources */,
 				FD3B1322253E381C00B37FFF /* AppDelegate.swift in Sources */,
+				FD3B1337253E3A5000B37FFF /* LoaderImages.swift in Sources */,
 				FD3B1324253E381C00B37FFF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 92NKZ7998L;
 				INFOPLIST_FILE = ExampleURLSession/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 92NKZ7998L;
 				INFOPLIST_FILE = ExampleURLSession/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
